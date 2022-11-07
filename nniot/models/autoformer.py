@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from robust_motor.models.layers.embed import DataEmbedding_wo_pos
-from robust_motor.models.layers.auto_correlation import AutoCorrelation, AutoCorrelationLayer
-from robust_motor.models.layers.autoformer_encdec import Encoder, Decoder, EncoderLayer, DecoderLayer, my_Layernorm, series_decomp
+from nniot.models.layers.embed import DataEmbedding_wo_pos
+from nniot.models.layers.auto_correlation import AutoCorrelation, AutoCorrelationLayer
+from nniot.models.layers.autoformer_encdec import Encoder, Decoder, EncoderLayer, DecoderLayer, my_Layernorm, series_decomp
 
 
 class AutoFormer(nn.Module):

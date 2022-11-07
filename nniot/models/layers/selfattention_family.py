@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 from math import sqrt
-from robust_motor.utils.masking import TriangularCausalMask, ProbMask
+from nniot.utils.masking import TriangularCausalMask, ProbMask
 import os
 
 

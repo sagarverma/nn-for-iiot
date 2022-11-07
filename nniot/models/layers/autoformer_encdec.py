@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import math
-from robust_motor.models.layers.selfattention_family import FullAttention
+from nniot.models.layers.selfattention_family import FullAttention
 
 
 class my_Layernorm(nn.Module):

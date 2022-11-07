@@ -5,7 +5,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torch.autograd import Variable
 
-from robust_motor.models.indrnn import IndRNN
+from nniot.models.indrnn import IndRNN
 
 
 class ShallowEncDec(nn.Module):

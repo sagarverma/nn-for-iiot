@@ -6,7 +6,7 @@ from torch import Tensor
 
 from typing import List, Tuple
 import math
-from robust_motor.models.layers.utils import get_filter
+from nniot.models.layers.utils import get_filter
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

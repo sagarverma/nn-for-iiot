@@ -1,11 +1,11 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from robust_motor.models.layers.embed import DataEmbedding_onlypos
-from robust_motor.models.layers.auto_correlation import AutoCorrelationLayer
-from robust_motor.models.layers.fourier_correlation import FourierBlock, FourierCrossAttention
-from robust_motor.models.layers.multi_wavelet_correlation import MultiWaveletCross, MultiWaveletTransform
-from robust_motor.models.layers.autoformer_encdec import Encoder, Decoder, EncoderLayer, DecoderLayer, my_Layernorm, series_decomp, series_decomp_multi
+from nniot.models.layers.embed import DataEmbedding_onlypos
+from nniot.models.layers.auto_correlation import AutoCorrelationLayer
+from nniot.models.layers.fourier_correlation import FourierBlock, FourierCrossAttention
+from nniot.models.layers.multi_wavelet_correlation import MultiWaveletCross, MultiWaveletTransform
+from nniot.models.layers.autoformer_encdec import Encoder, Decoder, EncoderLayer, DecoderLayer, my_Layernorm, series_decomp, series_decomp_multi
 
 
 class FedFormer(nn.Module):

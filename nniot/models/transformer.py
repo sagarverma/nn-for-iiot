@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from robust_motor.models.layers.transformer_encdec import Decoder, DecoderLayer, Encoder, EncoderLayer, ConvLayer
-from robust_motor.models.layers.selfattention_family import FullAttention, AttentionLayer
-from robust_motor.models.layers.embed import DataEmbedding
+from nniot.models.layers.transformer_encdec import Decoder, DecoderLayer, Encoder, EncoderLayer, ConvLayer
+from nniot.models.layers.selfattention_family import FullAttention, AttentionLayer
+from nniot.models.layers.embed import DataEmbedding
 
 
 class Transformer(nn.Module):

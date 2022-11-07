@@ -8,10 +8,10 @@ from torch.optim.lr_scheduler import ReduceLROnPlateau
 
 from tensorboardX import SummaryWriter
 
-from robust_motor.utils.parser import get_args
-from robust_motor.utils.helpers import get_paths, get_model, log
-from robust_motor.utils.metrics import smape, r2, rmse, mae
-from robust_motor.datasets.motor_dynamics import get_loaders
+from nniot.utils.parser import get_args
+from nniot.utils.helpers import get_paths, get_model, log
+from nniot.utils.metrics import smape, r2, rmse, mae
+from nniot.datasets.motor_dynamics import get_loaders
 
 
 

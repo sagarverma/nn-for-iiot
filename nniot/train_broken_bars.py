@@ -10,9 +10,9 @@ from sklearn.metrics import f1_score, accuracy_score
 
 from tensorboardX import SummaryWriter
 
-from robust_motor.utils.parser import get_args
-from robust_motor.utils.helpers import get_paths, get_model, log
-from robust_motor.datasets.broken_bars import get_loaders
+from nniot.utils.parser import get_args
+from nniot.utils.helpers import get_paths, get_model, log
+from nniot.datasets.broken_bars import get_loaders
 
 
 args = get_args()

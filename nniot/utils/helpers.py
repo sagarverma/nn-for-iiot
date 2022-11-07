@@ -3,21 +3,21 @@ import os
 import torch
 import torch.nn as nn
 
-from robust_motor.utils.metrics import sc_mse
+from nniot.utils.metrics import sc_mse
 
-from robust_motor.models.cnn import ShallowCNN, DeepCNN
-from robust_motor.models.ffnn import ShallowFNN, DeepFNN
-from robust_motor.models.rnn import ShallowRNN, DeepRNN
-from robust_motor.models.lstm import ShallowLSTM, DeepLSTM
-from robust_motor.models.encdec import (ShallowEncDec, DeepEncDec, EncDecSkip,
+from nniot.models.cnn import ShallowCNN, DeepCNN
+from nniot.models.ffnn import ShallowFNN, DeepFNN
+from nniot.models.rnn import ShallowRNN, DeepRNN
+from nniot.models.lstm import ShallowLSTM, DeepLSTM
+from nniot.models.encdec import (ShallowEncDec, DeepEncDec, EncDecSkip,
                           EncDecRNNSkip, EncDecBiRNNSkip,
                           EncDecDiagBiRNNSkip)
-from robust_motor.models.resnet1d import ResNet1D
-from robust_motor.models.crnn1d import CRNN
-from robust_motor.models.acnn1d import ACNN
-from robust_motor.models.regnet1d import RegNet1D
-from robust_motor.models.transformer1d import Transformer1D
-from robust_motor.models.fedformer import FedFormer
+from nniot.models.resnet1d import ResNet1D
+from nniot.models.crnn1d import CRNN
+from nniot.models.acnn1d import ACNN
+from nniot.models.regnet1d import RegNet1D
+from nniot.models.transformer1d import Transformer1D
+from nniot.models.fedformer import FedFormer
 
 
 def get_paths(args):
