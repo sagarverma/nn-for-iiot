@@ -103,7 +103,7 @@ def load_data(root):
 
     print ('Loading Dataset')
 
-    for exp in tqdm.tqdm(exps):
+    for exp in tqdm.tqdm(exps[:10]):
         name = exp.split('/')[-1].split('.')[0]
         cls, torque, exp_no = name.split('_')
 
