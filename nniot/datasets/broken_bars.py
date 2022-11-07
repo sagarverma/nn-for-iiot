@@ -140,7 +140,7 @@ class BrokernBarsLoader(data.Dataset):
 
 
 def get_loaders(args):
-    train_dataset, val_dataset, train_samples, val_samples = load_data('data/BrokenBars/')
+    train_dataset, val_dataset, train_samples, val_samples = load_data('../datasets/BrokenBars/')
 
     print('train samples : ', len(train_samples))
     print('val samples : ', len(val_samples))
